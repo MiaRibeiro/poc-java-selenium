@@ -1,1 +1,5 @@
+sample\HomePage.class
 sample\WebDriverSystemProperties.class
+sample\CartPage.class
+sample\PageObject.class
+sample\AutomationTest.class
