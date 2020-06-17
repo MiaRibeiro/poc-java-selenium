@@ -1,6 +1,5 @@
 package sample;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,7 +26,6 @@ public class HomePage extends PageObject {
 
     @FindBy(css = "a[title='View my shopping cart']")
     private WebElement linkCart;
-
 
     public HomePage(WebDriver webDriver) {
         super(webDriver);

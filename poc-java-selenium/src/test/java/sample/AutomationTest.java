@@ -25,4 +25,12 @@ public class AutomationTest extends WebDriverSystemProperties {
         homePage.clickCart();
         cartPage.getTitleCart("SHOPPING-CART SUMMARY");
     }
+
+    @Test
+    public void MenuWomenTopsTshirt() {
+        TShirtPage tShirtPage = new TShirtPage(webDriver);
+        PageObject utils = new PageObject(webDriver);
+        utils.ClickJS("testando");
+        tShirtPage.getwomenTshirtTitle("T-SHIRTS");
+    }
 }

@@ -3,3 +3,4 @@ sample\WebDriverSystemProperties.class
 sample\CartPage.class
 sample\PageObject.class
 sample\AutomationTest.class
+sample\WomenTshirt.class
